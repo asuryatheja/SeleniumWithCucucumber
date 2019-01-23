@@ -103,17 +103,18 @@
             <version>3.0.1</version>
         </dependency>
     </dependencies>
-   <distribution management>      
+   <distributionManagement>      
          <repository>
                   <name>maven-releases</name>
                   <url>http://localhost:8081/repository/maven-releases/</url>
          </repository>
           
-          <repository>
+          <snapshotrepository>
                   <name>maven-snapshots</name>
                   <url>http://localhost:8081/repository/maven-snapshots/</url>
-         </repository>  
-   <distribution management>                     
+         </snapshotrepository>  
+            
+   <distributionManagement>                     
 </project>
 
 
