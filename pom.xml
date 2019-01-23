@@ -102,6 +102,18 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.0.1</version>
         </dependency>
-
     </dependencies>
+   <distribution management>      
+         <repository>
+                  <name>maven-releases</name>
+                  <url>http://localhost:8081/repository/maven-releases/</url>
+         </repository>
+          
+          <repository>
+                  <name>maven-snapshots</name>
+                  <url>http://localhost:8081/repository/maven-snapshots/</url>
+         </repository>  
+   <distribution management>                     
 </project>
+
+
